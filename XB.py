@@ -6,5 +6,4 @@ for i in hex_numbers_array:
     dec_numbers_array.append(str(chr(int(i, 16))))
 
 dec_numbers = ''.join(dec_numbers_array)
-
 print(dec_numbers)
