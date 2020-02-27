@@ -2,31 +2,31 @@ text = 'vkupu zts t vthwu suv xlv lfqup t vpuu bf ipxfv xi vku kxlsu tfq vku ntp
 text_new = ''
 
 replace_dict = {
-	'a': 'v',
-	'b': 'i',
-	'c': 'g',
-	'd': 'y',
-	'e': 'c',
-	'f': 'n',
-	'h': 'b',
-	'i': 'f',
-	'j': 'p',
+    'a': 'v',
+    'b': 'i',
+    'c': 'g',
+    'd': 'y',
+    'e': 'c',
+    'f': 'n',
+    'h': 'b',
+    'i': 'f',
+    'j': 'p',
     'k': 'h',
-	'l': 'u',
+    'l': 'u',
     'p': 'r',
-	'q': 'd',
+    'q': 'd',
     't': 'a',
     'u': 'e',
     'v': 't',
-	'w': 'l',
-	'x': 'o',
+    'w': 'l',
+    'x': 'o',
     'z': 'w'
 }
 
 for symbol in text:
-	if symbol in replace_dict:
-		text_new += replace_dict[symbol]
-	else:
-		text_new += symbol
+    if symbol in replace_dict:
+        text_new += replace_dict[symbol]
+    else:
+        text_new += symbol
 
 print(text_new)
